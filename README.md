@@ -2,6 +2,11 @@
 
 Two-way sync between Google Calendar and Todoist via Google Apps Script.
 
+<video width="800" height="450" controls loop autoplay muted>
+  <source src="ressources/gcal_todoist_sync.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## Problem
 As of August 12th 2024, Todoist does not offer a two-way sync with Google Calendar anymore, see this [Reddit thread](https://www.reddit.com/r/todoist/comments/1d896yw/google_calendar_integration/). According to the [Todoist documentation](https://todoist.com/help/articles/use-calendar-with-todoist-rCqwLCt3G?locale=en&articleId=use-calendar-with-todoist-rCqwLCt3G#h_01HXS15SKB84HE17BWKPXKJ9XG), calendar events are displayed as read-only in Todoist, and must be changed in the Google Calendar web app. Moreover, calendar events are not displayed as tasks, but as a separate, poorly formatted section in the Todoist app. There is currently no way to create a task in Todoist, and have it reflected as an event in Google Calendar.
 
